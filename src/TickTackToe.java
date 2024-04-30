@@ -1,8 +1,3 @@
-
-
-//   #  #  #
-//   #  #  #
-//   #  #  #
 public class TickTackToe {
     public static void main(String[] args){
         int turn = 0;
@@ -23,7 +18,7 @@ public class TickTackToe {
         // Actual Game Loop
         while(winner == -1){
             winner = CheckWinner(board);
-
+            printBoard(board);
             //Turns
             int turnField = players[turn].getTurn();
             if(players[turn].validTurn(board, turnField)){
