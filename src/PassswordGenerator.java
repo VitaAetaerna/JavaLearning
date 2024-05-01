@@ -18,7 +18,6 @@ public class PassswordGenerator {
         for (int i = 0; i<passwordLength; i++){
             System.out.print(passwordArray[i]);
         }
-
     }
     // new Static Method that takes a int Passwordlength and gives an Array back
     public static String[] createPassword(int passwordLength){
